@@ -1,0 +1,44 @@
+# --- Material de terceiros sem autorização de redistribuição confirmada ---
+# Notebook de aula da FIAP (Prof. Orlando Junior). Remover esta linha somente
+# após confirmar a autorização para publicar o arquivo.
+FIAP_Processamento_de_Textos.ipynb
+
+# --- Ambientes virtuais ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+saida_local/
+
+# --- Segredos e configuração local ---
+.env
+.env.*
+!.env.example
+
+# --- Arquivos temporários e do sistema ---
+*.tmp
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editores e ferramentas locais ---
+.vscode/
+.idea/
+.claude/
